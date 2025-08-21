@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Form: </title>
+</head>
+<body>
+    <form action="/submit.php" method="post">
+        <label for="username">Username: </label>
+        <input type="text" value="username" name="username" placeholder="Enter your username"> <br>
+
+        <label for="password">Password: </label>
+        <input type="password" value="password" name="password" placeholder="Enter your password"> <br>
+Date: <input type="date"> <br>
+Range: <input type="range"> <br>
+File: <input type="file"> <br>
+
+<label for="male">Male: </label>
+<input type="radio" value="male" name="Gender">
+
+<label for="Female">Female: </label>
+<input type="radio" value="Female" name="Gender"> <br>
+
+<label for="c">C</label>
+<input type="checkbox" name="lang" id="c" value="c">
+<label for="java">Java</label>
+<input type="checkbox" name="lang" id="java" value="java"> 
+<label for="python">Python</label>
+<input type="checkbox" name="lang" id="python" value="python"> <br>
+
+<select name="country" id="country">
+<option value="india">INdia</option>
+<option value="nepal">nepal</option>
+<option value="china">china</option>
+
+</select> <br>
+ 
+<textarea name="description" id="description" rows="2" cols="10"></textarea>
+
+    </form>
+</body>
+</html>
