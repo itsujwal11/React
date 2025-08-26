@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+}
+
+
+p{
+    color: green;
+}
+
+#password1{
+    color: red;
+}
+#password2{
+    color: red;
+}
+#password2{
+    text-transform: uppercase;
+}
+#password2{
+    text-decoration: underline;
+}
+#middle{
+    display: block;
+    text-align: center;
+}
+.parent{
+    border: 4px solid red;
+}
+.child {
+    height: 50px;
+float: right;
+}
