@@ -22,7 +22,7 @@
 
 <div>
     <label for="user_first_name">First Name</label> <br>
-<input type="text" id="user_first_name" name="user_first_name" required>
+<input type="text" id="user_first_name" name="user_first_name" required minlength="5" maxlength="12">
 </div>
 
 <div>
@@ -37,12 +37,12 @@
 
 <div>
         <label for="user_password">Password</label> <br>
-<input type="password" id="user_password" name="user_password" required>
+<input type="password" id="user_password" name="user_password" required minlength="5" maxlength="12">
 </div>
 
 <div>
     <label for="user_confirm_password">Contirm Password</label>
-<input type="password" id="user_confirm_password" name="user_confirm_password" required>
+<input type="password" id="user_confirm_password" name="user_confirm_password" required minlength="5" maxlength="12">
 </div>        
 <div>
 
@@ -52,6 +52,11 @@
     Sign Up
 </button> 
 </form>
+<style>
+    input:focus:invalid{
+        border: 2px solid red;
+    }
+</style>
     </main>
     <br>
     <footer>
