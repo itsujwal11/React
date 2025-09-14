@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    max-width: 400px;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.main-card{
+    min-height: 200px;
+}
+.temp-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+#weather-icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+input, button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+button{
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    cursor: pointer;
+}
