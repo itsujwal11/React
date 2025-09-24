@@ -24,3 +24,21 @@
     background-color: red;
     opacity: 50%;
 }
+
+.box1{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    animation: myanimation 4s infinite;
+}
+
+@keyframes myanimation{
+    from{
+        width: 50px;
+    }
+
+    to{
+        width: 100px;
+        
+    }
+}
